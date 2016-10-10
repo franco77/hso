@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_notific" value="name:id_evento;datatype:int,name:titulo_evento;datatype:blob,name:nota_eveto;datatype:blob,name:desde_evento;datatype:datetime,name:hasta_evento;datatype:datetime,name:autor_evento;datatype:string,name:tipo_eveto;datatype:string,name:estado_evento;datatype:string,name:fecha_eveto;datatype:timestamp" />
+	<infoitem key="UD_recorda_task" value="name:id_tarea;datatype:int,name:titulo_tarea;datatype:string,name:asignar_tarea;datatype:string,name:contenido_tarea;datatype:blob,name:prioridad_tarea;datatype:string,name:entrega_tarea;datatype:date,name:autor_tarea;datatype:string,name:fecha_create;datatype:timestamp,name:progreso_tarea;datatype:int" />
+	<infoitem key="UD_count_task" value="name:COUNT(*);datatype:int" />
+	<infoitem key="UD_count_notas" value="name:COUNT(*);datatype:int" />
+</info>

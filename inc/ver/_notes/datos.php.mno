@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_datos_adui" value="name:id_datos;datatype:int,name:id_usuarios;datatype:int,name:id_sector;datatype:string,name:cmxhora;datatype:real,name:estado_llave;datatype:string,name:fecha_hora;datatype:time,name:fecha;datatype:date,name:ip;datatype:string,name:id_usuario;datatype:int,name:nombre;datatype:string,name:apellido;datatype:string,name:email;datatype:string,name:password;datatype:string,name:sexo;datatype:string,name:fecha_nacimiento;datatype:date,name:perfil;datatype:blob,name:direccion;datatype:string,name:telefono;datatype:string,name:nivel;datatype:string,name:estado;datatype:string" />
+</info>

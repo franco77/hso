@@ -1,0 +1,373 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>HIDROSUROESTE Sistema</title>
+	
+	<meta name="description" content="sistema para el control de interno de Hidro Sur Oeste, manejo de tareas, notas, registros de consumo, estadisticas, informes">
+	<meta name="author" content="Juan D. Franco">
+	<meta name="copyright" content="Juan D. Franco">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-10-09T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='easeInQuad';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_2.png);}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #008C9E #008C9E #bfbfbf;
+		  background-color: #006673;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+		.daya{
+			font-size:24px;
+			text-align:center;
+			margin:20px auto 30px auto;
+			color:#F7F5F5;
+			text-decoration:none;
+		}
+			a{
+				text-decoration:none;
+				
+				}
+	</style>
+	
+</head>
+<body class="documenter-project-hidro-sur-oeste-sistema">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover"><div class="daya">HsO </div></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Empezemos</a></li>
+				
+			<li><a href="#requerimientos" title="Requerimientos">Requerimientos</a></li>
+			<li><a href="#instalaci_n" title="Instalación">Instalación</a></li>
+			<li><a href="#escritorio" title="Escritorio">Escritorio</a></li>
+			<li><a href="#notas" title="Notas">Notas</a></li>
+			<li><a href="#genera_evento" title="Genera Evento">Genera Evento</a></li>
+			<li><a href="#tareas" title="Tareas">Tareas</a></li>
+			<li><a href="#asignar_tarea" title="Asignar Tarea">Asignar Tarea</a></li>
+			<li><a href="#estadistica" title="Estadistica">Estadistica</a></li>
+			<li><a href="#gestor_de_archivos" title="Gestor De Archivos">Gestor De Archivos</a></li>
+			<li><a href="#reportes" title="Reportes">Reportes</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Juan D. Franco 2016<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Hidro Sur Oeste Sistema</h1>
+	
+	<div id="documenter_buttons">
+		<a href="http://citruxsistem.com.ve" class="btn btn-primary btn-large">Desarrollado</a> 
+	</div>
+	<hr>
+	<ul>
+	<li>created: 07/05/2016</li>
+	<li>latest update: 10/9/2016</li>
+	<li>by: Juan D. Franco</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#106;&#117;&#97;&#110;&#102;&#114;&#97;&#110;&#99;&#111;&#53;&#54;&#49;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#106;&#117;&#97;&#110;&#102;&#114;&#97;&#110;&#99;&#111;&#53;&#54;&#49;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Gracias por utilizar nuestro sistema. Si usted tiene alguna pregunta que están más allá del alcance de esta ayuda, por favor no dude en enviar por correo electrónico a través de mi formulario de contacto página de usuario aquí. ¡Muchas gracias!</p>
+	</section>
+	
+	<section id="requerimientos">
+	<div class="page-header"><h3>Requerimientos</h3><hr class="notop"></div>
+<p>
+	Para ejecutar este sistema se necesitan los siguientes requisitos como minimo</p>
+<br>
+<ol>
+	<li>
+		Apache, Nginx, u otro servidor web compatible</li>
+	<li>
+		PHP&gt; = 5.5.9 &gt;&gt; Superior</li>
+	<li>
+		servidor de base de datos MySQL</li>
+	<li>
+		En tiempo real de conexi&oacute;n a Internet (Administraci&oacute;n de m&oacute;dulos)</li>
+</ol>
+<p>
+	<em><strong>Nota: Como Recondacion Personal Utilizar <a href="https://www.apachefriends.org/es/index.html" target="_blank">XAMPP</a> Ya Que Es Muy Facil De Instalar Y Configurar</strong></em></p>
+<p>&nbsp;
+	</p>
+<p>
+	<img alt="" src="assets/images/image_1.png"></p>
+</section>
+<section id="instalaci_n">
+	<div class="page-header"><h3>Instalación</h3><hr class="notop"></div>
+<div>
+	Preparaci&oacute;n de la instalaci&oacute;n</div>
+<div>
+	&nbsp;</div>
+<div>
+	Descargar paquete ZIP y descomprimirlo.</div>
+<div>
+	En la carpeta descomprimida encontrar&aacute; directorio de carpetas como abajo.</div>
+<div>
+	-HSO</div>
+<div>
+	-base de datos</div>
+<div>
+	-documentaci&oacute;n</div>
+<div>
+	-Mover la carpeta HSO que es aplicaci&oacute;n a el directorio del servidor &nbsp;web</div>
+<div>
+	En pocas palabras todos los archivos dentro del directorio HSO &nbsp;la carpeta de aplicaciones.</div>
+<div>
+	Crear nueva base de datos de la instalaci&oacute;n</div>
+<div>
+	&nbsp;</div>
+<div>
+	-Es necesario crear una nueva base de datos, puede utilizar phpmyadmin o cualquier herramienta MySQL Databse tal maestro, SQLyog etc &nbsp;</div>
+<div>
+	-Despu&eacute;s cre&oacute; una nueva base de datos, ahora importar database/database archivo.sql en su nueva base de datos</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<h4 id="instalaci_n_instalaci_oacuten_de_configuraci_oacuten">Instalaci&oacute;n de configuraci&oacute;n</h4>
+	<div>
+		&nbsp;</div>
+	<div>
+		1. Abrir Connections/hso.php archivo en su editor favorito php y colocar los datos de tu servidor</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<pre class="prettyprint lang-php linenums">
+&lt;?php
+
+$hostname_hso = &quot;SERVIDOR&quot;;
+
+$database_hso = &quot;NOMBRE_DB&quot;;
+
+$username_hso = &quot;USUARIO&quot;;
+
+$password_hso = &quot;PASSWORD&quot;;
+
+$hso = mysql_pconnect($hostname_hso, $username_hso, $password_hso) or trigger_error(mysql_error(),E_USER_ERROR); 
+
+?&gt;</pre>
+	</div>
+</div>
+<p>&nbsp;
+	</p>
+<p>
+	2. Abrir el archivo <strong>.htaccess </strong>con su editor de preferencia y sustituir la siguiente url por la ur del servidor en este caso se esta corriendo en un servidor local por lo tanto quedaria asi</p>
+<p>&nbsp;
+	</p>
+<pre class="prettyprint lang-html linenums">
+&lt;Files ~ &quot;^\.(htaccess|htpasswd)$&quot;&gt;
+
+deny from all
+
+&lt;/Files&gt;
+
+Options Indexes
+
+ErrorDocument 403 <strike>http://localhost</strike>/HSO/403.php
+
+ErrorDocument 404 <strike>http://localhost</strike>/HSO/404.php
+
+
+order deny,allow</pre>
+</section>
+<section id="escritorio">
+	<div class="page-header"><h3>Escritorio</h3><hr class="notop"></div>
+<p>
+	Una vez iniciamos sesion y estemos dentro del sistema podremos ver el escritorio principal el cual esta compuesto de 4 secciones.</p>
+<p>
+	1. notificaciones de las ultimas 4 notas creadas por el usuario en curso</p>
+<p>
+	<img src="assets/images/Captura1.JPG" alt="" width="1300"></p>
+<p>&nbsp;
+	</p>
+<p>
+	2. Mapa o esctructura grafica de los sectores en este mapa se pueden identificar los puntos rojos, estos punto al hacer clik sobre ellos se abrira una ventana emergente mostrandonos la informacion de dicha aera o sector</p>
+<p>
+	<img src="assets/images/Captura2.JPG" alt="" width="1300"></p>
+<p>&nbsp;
+	</p>
+<p>
+	3. En esta seccion se encuentran la tareas asignada, las tareas que se muestran aca son las 4 ultimas tareas que otros usuarios del sistema me han asignado&nbsp;</p>
+<p>
+	<img src="assets/images/Captura3.JPG" alt="" width="1300"></p>
+<p>&nbsp;
+	</p>
+<p>
+	4. En esta seccion se encuentra los ultimos registros que se han generado por el sistema de bonbeo, es decir todos los datos que recoje el sistema como hora, fecha, cantida litros, operario.&nbsp;</p>
+<p>
+	-tambie se muestra el calendario para tener claro los eventos y notas creadas&nbsp;</p>
+<p>
+<img src="assets/images/Captura4.JPG" alt="" width="1300"></p>
+<p>&nbsp;
+	</p>
+</section>
+<section id="notas">
+	<div class="page-header"><h3>Notas</h3><hr class="notop"></div>
+<p>
+	-Las notas son pequenos fracmentos de texto en los que puedes apuntar alguna mini tarea personal, las notas que generas como usuario solo pueden ser vista y administradas por su creador</p>
+<p>
+	<img src="assets/images/Captura5.JPG" alt="" width="1300"></p>
+<p>&nbsp;
+	</p>
+<p>
+	-Tambien podemos encontrar otra categoria dentro de las notas que se llaman recordatorios, estos recordatorios tienen como papel principal crear una bitacora de posibles apuntes, que puedan ser usados en un futuro no muy lejano.</p>
+<p>
+	<img src="assets/images/Captura6.JPG" alt="" width="1300"></p>
+</section>
+<section id="genera_evento">
+	<div class="page-header"><h3>Genera Evento</h3><hr class="notop"></div>
+<p>
+	Para generar eventos de tipo Nota o Recordatorio solo tienes que llenar el formulario que aparece en la parte lateral Izquierda de el calendario de eventos, hay te va a pedir</p>
+<p>
+	1. Titulo del evento,</p>
+<p>
+	2. Tipo de evento si es nota o recordatorio,</p>
+<p>
+	3. Fecha Desde Hasta &nbsp; <strong>Tener encuenta:</strong> en caso de ser de tipo (Nota) puedes dejar en blanco el campo de fecha Hasta</p>
+<p>
+	4. Contenido Del Evento</p>
+<p>
+	<img src="assets/images/Captura7.JPG" alt="" width="1300"></p>
+</section>
+<section id="tareas">
+	<div class="page-header"><h3>Tareas</h3><hr class="notop"></div>
+<p>
+	Una tarea es una labor u ocupaci&oacute;n. que se le asigna a un usuario en particular un usuario puede asignar tareas a a varios usuarios &nbsp;y los demas usuarios me pueden asignar tarea ami como usuario del sistema.</p>
+<div class="panel-heading">
+	<h4 id="tareas_tareas_que_yo_e_delegado_a_otros_usuarios">Tareas Que Yo E Delegado A otros Usuarios</h4>
+	<p>
+		las tareas que son creadas por mi tiene la particularidad que solo yo tengo los privilegios de dichas tareas, es decir solo yo puedo ver, editar y borrar</p>
+	<p>
+		<img src="assets/images/Captura8.JPG" alt="" width="1300"></p>
+	<p>&nbsp;
+		</p>
+	<p>&nbsp;
+		</p>
+	<h4 id="tareas_tareas_que_me_han_delegado_a_mi_otros_usuarios">Tareas Que Me Han Delegado A Mi Otros Usuarios</h4>
+	<p>
+		las tares que me han delegado otros usuarios ami apareceran en la siguiente tabla estas tareas solo es editables el campo de progreso ya que con esto se evita la alteracion de dicha tarea&nbsp;</p>
+</div>
+<p>
+	<img src="assets/images/Captura9.JPG" alt="" width="1300"></p>
+</section>
+<section id="asignar_tarea">
+	<div class="page-header"><h3>Asignar Tarea</h3><hr class="notop"></div>
+<p>
+	para asignar una tarea basta solamente con llenar el formulario el cual es muy intuitivo ya que se piden campos muy basicos y sin mayor complejidad como</p>
+<p>
+	1. Titulo De La Tarea</p>
+<p>
+	2. Asignar Tarea A</p>
+<p>
+	3. Contenido De La Tarea</p>
+<p>
+	4. Prioridad</p>
+<p>
+	5. Fecha De Entrega</p>
+<p>
+	<strong>Nota: todas la tareas tiene un progreso el cual inicializa en 1%, dicho progreso solo podra ser modificado por el receptor de la tarea</strong></p>
+<p>
+	<img src="assets/images/Captura10.JPG" alt="" width="1300"></p>
+<p>&nbsp;
+	</p>
+</section>
+<section id="estadistica">
+	<div class="page-header"><h3>Estadistica</h3><hr class="notop"></div>
+<p>
+	La estadistica generada en este sistema esta totalmente relacionada con los datos que se recojen de los sectores en los cuales se activo el sistema de bombeo,</p>
+<p>
+	Consumo total por sectores en Centimetros -3</p>
+<p>
+	<img src="assets/images/Captura11.JPG" alt="" width="1300"></p>
+<p>
+	Consumo mensual en Centimetros-3 por sectore</p>
+<p>
+	<img src="assets/images/Captura12.JPG" alt="" width="1300"></p>
+<p>
+	Consumo por sectores calculando Porcentaje de consumo&nbsp;</p>
+<p>
+	<img src="assets/images/Captura13.JPG" alt="" width="1300"></p>
+</section>
+<section id="gestor_de_archivos">
+	<div class="page-header"><h3>Gestor De Archivos</h3><hr class="notop"></div>
+<p>
+	El gestor de archivos te permitemantener de forma directa y segura tus archivos pdf,docx,xml,html,jpg,png entre otros tambien puedes administrar tus carpetas y personalizarlas&nbsp;</p>
+<p>
+	<img src="assets/images/Captura14.JPG" alt="" width="1300"></p>
+<p>&nbsp;
+	</p>
+</section>
+<section id="reportes">
+	<div class="page-header"><h3>Reportes</h3><hr class="notop"></div>
+<p>
+	El generador reportes te permite de forma muy sencilla listar los registros generados por el consumo de agua por sectores.</p>
+<p>
+	1. Fecha inicial (Desde)</p>
+<p>
+	2.Fecha finala (Hasta)</p>
+<p>
+	3. Ordenar segun Su (ID, Fecha o Sector)</p>
+<p>
+	4. Ordenar De Forma (Descendente o Ascendente)&nbsp;</p>
+<p>&nbsp;
+	</p>
+<p>
+	<img src="assets/images/Captura15.JPG" alt="" width="1300"></p>
+<p>&nbsp;
+	</p>
+</section>
+
+	</div>
+</body>
+</html>

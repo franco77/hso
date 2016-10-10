@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_level" value="name:id;datatype:int,name:nivel;datatype:string,name:detalle;datatype:string" />
+</info>

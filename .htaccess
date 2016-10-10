@@ -1,0 +1,8 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+ErrorDocument 403 http://localhost/hidrosuroeste/403.php
+ErrorDocument 404 http://localhost/hidrosuroeste/404.php
+
+order deny,allow

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_notas_filtro" value="name:id_evento;datatype:int,name:titulo_evento;datatype:blob,name:nota_eveto;datatype:blob,name:desde_evento;datatype:datetime,name:hasta_evento;datatype:datetime,name:autor_evento;datatype:string,name:tipo_eveto;datatype:string,name:estado_evento;datatype:string,name:fecha_eveto;datatype:timestamp" />
+</info>

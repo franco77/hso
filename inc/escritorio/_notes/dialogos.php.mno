@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sector" value="name:id;datatype:int,name:nombre_sect;datatype:string,name:contenido_sect;datatype:blob,name:last_update;datatype:timestamp,name:color_sector;datatype:string" />
+</info>

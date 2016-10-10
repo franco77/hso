@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_grafica" value="name:id_sector;datatype:string,name:SUM(cmxhora);datatype:real" />
+	<infoitem key="UD_sectores" value="name:id;datatype:int,name:nombre_sect;datatype:string" />
+	<infoitem key="UD_mes_actual" value="name:id_sector;datatype:string,name:SUM(cmxhora);datatype:real" />
+	<infoitem key="UD_pie_chart" value="name:id_sector;datatype:string,name:SUM(cmxhora);datatype:real" />
+</info>

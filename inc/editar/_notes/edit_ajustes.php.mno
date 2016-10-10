@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ajustes" value="name:id_ajuste;datatype:int,name:nombre_sitio;datatype:string,name:side_backgraund;datatype:string,name:side_ancho;datatype:string,name:side_fuente;datatype:string,name:side_hover;datatype:string,name:top_backgraund;datatype:string,name:top_fuente;datatype:string,name:top_hover;datatype:string,name:plantilla;datatype:string" />
+</info>

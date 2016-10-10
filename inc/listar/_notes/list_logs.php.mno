@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_logs" value="name:id_log;datatype:int,name:tabla_log;datatype:string,name:accion_log;datatype:string,name:usuario_log;datatype:string,name:nivel_user_log;datatype:string,name:ip_log;datatype:string,name:fecha_log;datatype:datetime,name:navegador_log;datatype:string" />
+</info>

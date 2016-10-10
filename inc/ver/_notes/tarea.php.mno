@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_tareas_ver" value="name:id_tarea;datatype:int,name:titulo_tarea;datatype:string,name:asignar_tarea;datatype:string,name:contenido_tarea;datatype:blob,name:prioridad_tarea;datatype:string,name:entrega_tarea;datatype:date,name:autor_tarea;datatype:string,name:fecha_create;datatype:timestamp,name:progreso_tarea;datatype:int" />
+</info>

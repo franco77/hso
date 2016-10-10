@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_users" value="name:id_usuario;datatype:int,name:nombre;datatype:string,name:apellido;datatype:string,name:email;datatype:string,name:password;datatype:string,name:sexo;datatype:string,name:fecha_nacimiento;datatype:date,name:perfil;datatype:blob,name:direccion;datatype:string,name:telefono;datatype:string,name:nivel;datatype:string,name:estado;datatype:string" />
+	<infoitem key="UD_tasks" value="name:id_tarea;datatype:int,name:titulo_tarea;datatype:string,name:asignar_tarea;datatype:string,name:contenido_tarea;datatype:blob,name:prioridad_tarea;datatype:string,name:entrega_tarea;datatype:date,name:autor_tarea;datatype:string,name:fecha_create;datatype:timestamp,name:progreso_tarea;datatype:int" />
+</info>
